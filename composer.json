@@ -1,0 +1,22 @@
+{
+    "name": "interophp/module-manager",
+    "description": "InteroPHP Framework independent module manager",
+    "homepage": "http://www.github.com/interophp/module-manager",
+    "keywords": ["php", "module", "linkorb"],
+    "type": "library",
+    "authors": [
+        {
+            "name":     "LinkORB Engineering",
+            "email":    "engineering@linkorb.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InteroPhp\\ModuleManager\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
